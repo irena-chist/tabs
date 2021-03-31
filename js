@@ -1,4 +1,19 @@
- let tab = document.querySelectorAll('.NAMEOFTAB'),
+CSS:
+
+.hide {
+  display: none;
+}
+.show {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+
+JS:
+
+let tab = document.querySelectorAll('.NAMEOFTAB'),
         info = document.querySelector('.NAMEOFWRAPPER'),
         content = document.querySelectorAll('.NAMEOFCONTENT');
 
